@@ -11,7 +11,10 @@
   margin-bottom: 10px;
 }
 .quizz-logo > h3{
-  margin-top: 1.2rem;
+  margin-top: 1.6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
 .quizz-questions{
   display: flex;

@@ -1,5 +1,8 @@
 # ProjectBuzzfeed
 
+CLI commands : ng new ( create a new angular project ) 
+ 
+  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
 ## Development server

@@ -56,7 +56,7 @@ export class QuizzComponent implements OnInit {
     }
   }
   async checkResult(answers:string[]){
-    ['A','A','B','A']
+    ['A','B','C','A','B','C',]
     const result = answers.reduce((previous,current,i,arr) =>{
       if(
         arr.filter(item => item ===previous).length >

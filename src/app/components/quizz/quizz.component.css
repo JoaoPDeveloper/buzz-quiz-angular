@@ -28,9 +28,10 @@
   font-size: 1.2rem;
   font-family: 'Segoe UI';
   margin-bottom: 1.2rem;
+  text-align: center;
 }
 .quizz-options > h3 {
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
@@ -48,15 +49,18 @@
   cursor: pointer;
   color: yellow;
   font-family: Arial;
+  padding: 1.3rem;
+  text-align: center;
   font-size: 1.1rem;
-  padding: 1rem 2rem;
   text-shadow: 0px 1px 0px #2f6627;
   margin-bottom: 1.5rem;
+  margin-left: 0.7rem;
   text-decoration: none;
   transition: 0.6s;
 }
 .btn-option:hover{
   background-color: #092f76;
+  color: #ffffff;
 }
 .btn-option:active{
   position: relative;
@@ -73,7 +77,14 @@
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 600px) {
+@media (max-width:540px) {
+  .btn-option{
+    width: 50%;
+    align-items: center;
+    text-align: left;
+   }
+}
+@media (max-width: 539px) {
   .quizz-container{
     width: 80%;
     margin: auto;
@@ -81,11 +92,25 @@
   }
   .quizz-options > h3 {
     text-align: center;
+    width: 50%;
   }
-  @media (max-width:320px) {
-   .quizz-questions > h3{
-    width: 100%;
+  .quizz-logo{
+    display: flex;
+    margin-bottom: 10px;
   }
+  .quizz-logo > h3{
+    margin-top: 1.2rem;
+ }
+ .btn-option{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+ }
+ img{
+  width: 100%;
+ }
+  @media (min-width:320px) {
+
   .quizz-logo{
       display: flex;
       margin-bottom: 10px;
@@ -93,5 +118,35 @@
     .quizz-logo > h3{
       margin-top: 1.2rem;
    }
+   .btn-option{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+   }
+   img{
+    width: 100%;
+   }
+  }
+  @media (max-width:900px) {
+    img{
+      width: 100%;
+     }
+     .btn-option{
+      width: 110%;
+      align-items: center;
+      text-align: center;
+     }
+    .quizz-logo{
+        display: flex;
+        margin-bottom: 10px;
+      }
+      .quizz-logo > h3{
+        margin-top: 1.2rem;
+     }
+     .quizz-questions > h3{
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+    }
   }
 }

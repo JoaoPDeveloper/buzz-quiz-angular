@@ -51,6 +51,15 @@
         {"id": 2, "name":"Amigo da vizinhança", "alias":"B"},
         {"id": 2, "name":"Uma Pessoa Comum", "alias":"C"}
       ]
+    },
+    {
+      "id":6,
+      "question": "Qual o seu ponto fraco?",
+      "options":[
+        {"id": 1, "name": "Força", "alias": "A"},
+        {"id": 2, "name": "Kriptonita", "alias": "B"},
+        {"id": 3, "name": "Fragilidade", "alias":"C"}
+      ]
     }
   ],
   "results":{

@@ -3,14 +3,14 @@
   margin: 0;
   border:  0;
   box-sizing: border-box;
-  color:  antiquewhite;
+  color: antiquewhite;
 }
 body{
   background-color: #1f1147;
 }
 #restart{
   text-align: center;
-  color: rgb(255, 244, 244);
+  color: rgb(255, 255, 255);
   width: 5%;
   align-items: center;
   padding: 15px;
@@ -22,7 +22,7 @@ button{
   background-color: transparent;
   border-radius: .5rem;
   border: 1px solid #18ab29;
-  width: 50%;
+  width: 60%;
   cursor: pointer;
   color: rgba(255, 0, 0, 0.883);
   font-family: Arial;
@@ -34,11 +34,16 @@ button{
   transition: 0.6s;
 }
 button:hover{
-    background-color: #0cc13f;
+    color: rgb(221, 255, 0);
+    background-color: #ff0404;
     transition: 1s;
-    color: blue;
   }
-@media (max-width: 600px) {
+  h4{
+    text-align: right;
+    flex-direction: row;
+  }
+
+@media (min-width: 329px) {
   #restart{
     width: 30%;
     align-items: center;
@@ -47,4 +52,22 @@ button:hover{
     margin-left: 35%;
     margin-top: 10%;
   }
+
+@media (max-width:330px) {
+  #restart{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  *{
+    flex-direction: column;
+    margin: 3px;
+  }
+}
+h3,h4{
+  flex-direction: column;
+}
 }

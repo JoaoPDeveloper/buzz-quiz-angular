@@ -43,6 +43,15 @@ button:hover{
     flex-direction: row;
   }
 
+  #outlook, #github, #linkedin{
+    width: 3%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  #outlook > img{
+    text-align: center;
+  }
 @media (min-width: 329px) {
   #restart{
     width: 30%;

@@ -155,7 +155,7 @@ flex-direction: row;
     width: 0;
     display: contents;
   }
-@media screen and (max-width: 425px) and
+@media screen and (max-width: 600px) and
 (orientation:portrait) {
     #restart {
       text-align: center;
@@ -184,7 +184,7 @@ flex-direction: row;
   margin-top: 1%;
  }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
   #restart{
     width: 30%;
     align-items: center;

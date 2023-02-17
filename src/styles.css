@@ -10,7 +10,7 @@ body {
   background-color:#020218;
 }
 #restart {
-  text-align: center;
+text-align: center;
 color: rgb(255, 255, 255);
 width: 40%;
 align-items: center;
@@ -73,12 +73,12 @@ flex-direction: row;
     justify-content: center;
     align-items: center;
     transition: transform .2s ease, opacity .2s ease;
-    background-image: url("https://www.resizepixel.com/Image/g6dipnj24a/Preview/foto_Easy-Resize.com.jpg?v=34b7e559-36e9-40d5-b11f-c0e3117fe5c7");
-   }
-   /*Image*/
-   .card-avatar-image {
+  }
+  /*Image*/
+  .card-avatar-image {
     --size: 60px;
     background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+    background-image: url("https://i.ibb.co/2sQwZsC/foto-joao-60x60.png");
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
@@ -87,7 +87,7 @@ flex-direction: row;
   }
    /*Card footer*/
    .card-social {
-     transform: translateY(200%);
+    transform: translateY(200%);
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -97,22 +97,21 @@ flex-direction: row;
 
    .card-social__item {
     list-style: none;
-   }
+  }
 
-   .card-social__item svg {
-    display: block;
-    height: 25px;
-    width: 25px;
+  .card-social__item svg {
+    height: 30px;
+    width: 30px;
     fill: #515F65;
     cursor: pointer;
     transition: fill 0.2s ease ,transform 0.2s ease;
    }
-
    /*Text*/
    .card-title {
     color: #333;
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.6em;
+    font-style: bold;
+    font-weight: 700;
     line-height: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
@@ -155,7 +154,7 @@ flex-direction: row;
     width: 0;
     display: contents;
   }
-@media screen and (max-width: 600px) and
+@media screen and (max-width: 700px) and
 (orientation:portrait) {
     #restart {
       text-align: center;

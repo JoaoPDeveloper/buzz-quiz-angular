@@ -16,6 +16,9 @@
   text-align: center;
   margin-bottom: 1.2rem;
 }
+h1,p{
+  text-align: center;
+}
 .quizz-questions{
   display: flex;
   justify-content: center;

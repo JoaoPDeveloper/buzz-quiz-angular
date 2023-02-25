@@ -2,9 +2,14 @@
     <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/BuzzFeed.svg"
 
 <br>
+  <br>
+  <br>
 Projeto BuzzFeed utilizando Angular!
 <br>
 
+  <br> 
+  <a href="https://joaopdeveloper-buzzquizz.vercel.app/"> Link do Projeto </a>
+  
  ## 💻 Tecnologias :
 - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" >   HTML  </a>
 - <a href="https://www.w3schools.com/css/" target="_blank" > CSS </a>

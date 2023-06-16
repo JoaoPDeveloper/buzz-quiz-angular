@@ -8,21 +8,20 @@
 body{
   background-color: #1f1147;
 }
-#restart{
+#restart {
   text-align: center;
   color: rgb(255, 244, 244);
-  width: 5%;
+  width: 15%;
   align-items: center;
   padding: 15px;
-  margin-left: 47%;
-  margin-top: 2%;
-  justify-content: center;
+  margin: 2% auto 0;
+  display: block;
 }
 button{
   background-color: transparent;
   border-radius: .5rem;
   border: 1px solid #18ab29;
-  width: 50%;
+  width: auto;
   cursor: pointer;
   color: rgba(255, 0, 0, 0.883);
   font-family: Arial;

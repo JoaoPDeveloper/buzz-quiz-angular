@@ -9,10 +9,20 @@
 </head>
 <body>
   <app-root></app-root>
-  <button type="button" onClick="recarregarAPagina()" id="restart">Atualizar Pagina!</button>
+  <button type="button" onClick="reloadPage()" id="restart">Reiniciar o Game!</button>
 </body>
 <script>
-function recarregarAPagina(){
+  const loading = document.querySelector('.loading');
+
+loading.style.display = 'block';
+
+window.addEventListener('load', () => {
+  loading.style.display = 'none';
+  window.location.href = 'loading.html';
+});
+</script>
+<script>
+function reloadPage(){
     window.location.reload();
 }
 </script>

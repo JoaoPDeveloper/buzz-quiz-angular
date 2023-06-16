@@ -1,59 +1,103 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Você seria um heroi ou vilão ?",
+  "questions": [
     {
-      "id":1,
+      "id": 1,
       "question": " Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"},
-        {"id": 6, "name":"Nenhum", "alias":"C"}
+      "options": [
+        { "id": 1, "name": "Raios-Lasers", "alias": "A" },
+        { "id": 2, "name": "Voar", "alias": "B" },
+        { "id": 3, "name": "Explodir coisas", "alias": "A" },
+        { "id": 4, "name": "Curar feridas", "alias": "B" },
+        { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" },
+        { "id": 6, "name": "Nenhum", "alias": "C" }
       ]
     },
     {
-      "id":2,
+      "id": 2,
       "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"},
-        {"id": 4, "name":"Eu Mesmo!", "alias":"C"}
+      "options": [
+        { "id": 1, "name": "Crianças", "alias": "A" },
+        { "id": 2, "name": "Idosos", "alias": "A" },
+        { "id": 3, "name": "Não saberia escolher", "alias": "B" },
+        { "id": 4, "name": "Eu Mesmo!", "alias": "C" }
       ]
     },
     {
-      "id":3,
+      "id": 3,
       "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"},
-        {"id": 5, "name":"Eu não enfrento outro super ser", "alias":"C"}
+      "options": [
+        { "id": 1, "name": "Não destruir prédios", "alias": "B" },
+        { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
+        { "id": 3, "name": "Não sujar meu traje", "alias": "A" },
+        { "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" },
+        { "id": 5, "name": "Eu não enfrento outro super ser", "alias": "C" }
       ]
     },
     {
-      "id":4,
+      "id": 4,
       "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"},
-        {"id": 2, "name":"Salvar a minha vida!", "alias":"C"}
+      "options": [
+        { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+        { "id": 2, "name": "Salvar a cidade", "alias": "B" },
+        { "id": 2, "name": "Salvar a minha vida!", "alias": "C" }
       ]
     },
     {
-      "id":5,
+      "id": 5,
       "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"},
-        {"id": 2, "name":"Uma Pessoa Comum", "alias":"C"}
+      "options": [
+        { "id": 1, "name": "O Terrivel", "alias": "A" },
+        { "id": 2, "name": "Amigo da vizinhança", "alias": "B" },
+        { "id": 2, "name": "Uma Pessoa Comum", "alias": "C" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Você Prefere a história do Super Vilão ou do Super Herói ?",
+      "options": [
+        { "id": 1, "name": "Super Vilão", "alias": "A" },
+        { "id": 2, "name": "Super Herói", "alias": "B" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Você Prefere Gatos ou Cães ?",
+      "options": [
+        { "id": 1, "name": "Gatos", "alias": "A" },
+        { "id": 2, "name": "Cães", "alias": "B" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Você acredita que o fim justifica os meios?",
+      "options": [
+        { "id": 1, "name": "Sim", "alias": "A" },
+        { "id": 2, "name": "Não", "alias": "B" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Você acha que é possível mudar o mundo sozinho?",
+      "options": [
+        { "id": 1, "name": "Sim", "alias": "A" },
+        { "id": 2, "name": "Não", "alias": "B" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Qual é o seu sabor de sorvete favorito?",
+      "options": [
+        { "id": 1, "name": "Chocolate", "alias": "A" },
+        { "id": 2, "name": "Baunilha", "alias": "B" },
+        { "id": 3, "name": "Morango", "alias": "C" },
+        { "id": 4, "name": "Pistache", "alias": "B" },
+        { "id": 5, "name": "Caramelo", "alias": "A" },
+        { "id": 6, "name": "Flocos", "alias": "C" }
       ]
     }
   ],
-  "results":{
+  "results": {
     "A": "Você muito provavelmente seria um Super Vilão!",
     "B": "Você muito provavelmente seria um Super Herói!",
     "C": "Você muito provavelmente seria uma Pessoa Comum!"

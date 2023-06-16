@@ -1,15 +1,9 @@
 {
-<<<<<<< HEAD
   "title": "Você seria um heroi ou vilão ?",
   "questions": [
-=======
-  "title":"Você seria um Super Herói, Super Vilão ou Uma Pessoa Comum?",
-  "questions":[
->>>>>>> b5297c97cb8eadce467024f495bb04e9b23bc7b8
     {
       "id": 1,
       "question": " Qual super poder você escolheria ?",
-<<<<<<< HEAD
       "options": [
         { "id": 1, "name": "Raios-Lasers", "alias": "A" },
         { "id": 2, "name": "Voar", "alias": "B" },
@@ -17,15 +11,6 @@
         { "id": 4, "name": "Curar feridas", "alias": "B" },
         { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" },
         { "id": 6, "name": "Nenhum", "alias": "C" }
-=======
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogos pelas mãos", "alias":"A"},
-        {"id": 6, "name":"Nenhum", "alias":"C"}
->>>>>>> b5297c97cb8eadce467024f495bb04e9b23bc7b8
       ]
     },
     {
@@ -69,55 +54,71 @@
     },
     {
       "id": 6,
-      "question": "Você Prefere a história do Super Vilão ou do Super Herói ?",
+      "question": "Qual o seu ponto fraco?",
       "options": [
-        { "id": 1, "name": "Super Vilão", "alias": "A" },
-        { "id": 2, "name": "Super Herói", "alias": "B" }
+        { "id": 1, "name": "Força", "alias": "A" },
+        { "id": 2, "name": "Kriptonita", "alias": "B" },
+        { "id": 3, "name": "Fragilidade", "alias": "C" }
       ]
     },
     {
       "id": 7,
-      "question": "Você Prefere Gatos ou Cães ?",
+      "question": "Você acredita que é justificável usar violência para atingir seus objetivos?",
       "options": [
-        { "id": 1, "name": "Gatos", "alias": "A" },
-        { "id": 2, "name": "Cães", "alias": "B" }
+        { "id": 1, "name": "Sim", "alias": "A" },
+        { "id": 2, "name": "Não", "alias": "C" },
+        { "id": 3, "name": "Talvez", "alias": "B" }
       ]
     },
     {
       "id": 8,
-      "question": "Você acredita que o fim justifica os meios?",
+      "question": "Você prefere trabalhar sozinho ou em equipe?",
       "options": [
-        { "id": 1, "name": "Sim", "alias": "A" },
-        { "id": 2, "name": "Não", "alias": "B" }
+        { "id": 1, "name": "Não, Sozinho", "alias": "A" },
+        { "id": 2, "name": "Sim, em Equipe", "alias": "B" },
+        { "id": 3, "name": "Eu não trabalho em Equipes", "alias": "C" }
       ]
     },
     {
       "id": 9,
-      "question": "Você acha que é possível mudar o mundo sozinho?",
+      "question": "Você acha que é importante ter uma figura de autoridade para governar e impor ordem, mesmo que isso signifique tirar a liberdade das pessoas?",
       "options": [
-        { "id": 1, "name": "Sim", "alias": "A" },
-        { "id": 2, "name": "Não", "alias": "B" }
+        {
+          "id": 1,
+          "name": "Sim, acredito que uma figura de autoridade forte é fundamental para manter a ordem e a segurança.",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Não, acredito que a liberdade das pessoas é mais importante do que manter uma figura de autoridade.",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Depende da situação. Em alguns casos, pode ser necessário ter uma figura de autoridade forte para manter a ordem, mas em outros casos, pode ser prejudicial para a liberdade das pessoas.",
+          "alias": "C"
+        }
       ]
     },
     {
       "id": 10,
-      "question": "Qual é o seu sabor de sorvete favorito?",
+      "question": "Se você tivesse que usar seu poder para salvar um grupo de pessoas, mas isso significasse sacrificar uma pessoa, você faria isso?",
       "options": [
-        { "id": 1, "name": "Chocolate", "alias": "A" },
-        { "id": 2, "name": "Baunilha", "alias": "B" },
-        { "id": 3, "name": "Morango", "alias": "C" },
-        { "id": 4, "name": "Pistache", "alias": "B" },
-        { "id": 5, "name": "Caramelo", "alias": "A" },
-        { "id": 6, "name": "Flocos", "alias": "C" }
-      ]
-    },
-    {
-      "id":6,
-      "question": "Qual o seu ponto fraco?",
-      "options":[
-        {"id": 1, "name": "Força", "alias": "A"},
-        {"id": 2, "name": "Kriptonita", "alias": "B"},
-        {"id": 3, "name": "Fragilidade", "alias":"C"}
+        {
+          "id": 1,
+          "name": "Sim, acredito que salvar um grupo de pessoas é mais importante do que salvar uma única pessoa.",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Não, acredito que cada vida é valiosa e não deveria ser sacrificada.",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": " Depende da situação. Se a pessoa que precisasse ser sacrificada fosse uma ameaça ao grupo, pode ser justificável, mas em outras situações, pode não ser ético.",
+          "alias": "C"
+        }
       ]
     }
   ],

@@ -1,9 +1,15 @@
 {
+<<<<<<< HEAD
   "title": "Você seria um heroi ou vilão ?",
   "questions": [
+=======
+  "title":"Você seria um Super Herói, Super Vilão ou Uma Pessoa Comum?",
+  "questions":[
+>>>>>>> b5297c97cb8eadce467024f495bb04e9b23bc7b8
     {
       "id": 1,
       "question": " Qual super poder você escolheria ?",
+<<<<<<< HEAD
       "options": [
         { "id": 1, "name": "Raios-Lasers", "alias": "A" },
         { "id": 2, "name": "Voar", "alias": "B" },
@@ -11,6 +17,15 @@
         { "id": 4, "name": "Curar feridas", "alias": "B" },
         { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" },
         { "id": 6, "name": "Nenhum", "alias": "C" }
+=======
+      "options":[
+        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
+        {"id": 2, "name":"Voar", "alias":"B"},
+        {"id": 3, "name":"Explodir coisas", "alias":"A"},
+        {"id": 4, "name":"Curar feridas", "alias":"B"},
+        {"id": 5, "name":"Soltar fogos pelas mãos", "alias":"A"},
+        {"id": 6, "name":"Nenhum", "alias":"C"}
+>>>>>>> b5297c97cb8eadce467024f495bb04e9b23bc7b8
       ]
     },
     {
@@ -94,6 +109,15 @@
         { "id": 4, "name": "Pistache", "alias": "B" },
         { "id": 5, "name": "Caramelo", "alias": "A" },
         { "id": 6, "name": "Flocos", "alias": "C" }
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual o seu ponto fraco?",
+      "options":[
+        {"id": 1, "name": "Força", "alias": "A"},
+        {"id": 2, "name": "Kriptonita", "alias": "B"},
+        {"id": 3, "name": "Fragilidade", "alias":"C"}
       ]
     }
   ],

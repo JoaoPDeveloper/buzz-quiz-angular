@@ -11,8 +11,8 @@ export class QuizzComponent implements OnInit {
 
   title:string = ""
 
-  questions:any
-  questionSelected:any
+  questions:any;
+  questionSelected:any;
 
   answers:string[] = []
   answerSelected:string =""
@@ -22,30 +22,26 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+    ngOnInit(): void {
     if(quizz_questions){
       this.finished = false
       this.title = quizz_questions.title
-
       this.questions = quizz_questions.questions
       this.questionSelected = this.questions[this.questionIndex]
-
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
 
       console.log(this.questionIndex)
       console.log(this.questionMaxIndex)
     }
-
   }
-
   playerChoose(value:string){
     this.answers.push(value)
     this.nextStep()
   }
-   async nextStep(){
+  async nextStep(){
     this.questionIndex+=1
     if(this.questionMaxIndex > this.questionIndex){
       this.questionSelected = this.questions[this.questionIndex]
@@ -56,16 +52,16 @@ export class QuizzComponent implements OnInit {
     }
   }
   async checkResult(answers:string[]){
-    ['A','A','B','A']
+    ['A','B','C','A','B','C']
     const result = answers.reduce((previous,current,i,arr) =>{
       if(
-        arr.filter(item => item ===previous).length >
-        arr.filter(item => item ===previous).length
-      ){
-        return previous
-      }else
-      return current
-    })
-    return result
+        arr.filter(item => item === previous).length >
+        arr.filter(item => item === previous).length
+        ){
+          return previous
+        }else
+        return current
+      })
+      return result
+    }
   }
-}
